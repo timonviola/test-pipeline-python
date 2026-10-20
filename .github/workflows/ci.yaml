@@ -10,9 +10,7 @@ jobs:
     uses: timonviola/test-pipelines/.github/workflows/ci.yaml@3788f46a4fda50a462e67267e81b6133973125aa
     with:
       python-version: "3.14"
-      config-path: "pyproject.toml"
   tests-2:
     uses: timonviola/test-pipelines/.github/workflows/ci.yaml@3788f46a4fda50a462e67267e81b6133973125aa
     with:
       python-version: "3.12"
-      config-path: "pyproject.toml"
